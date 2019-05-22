@@ -1,0 +1,73 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Acme');
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-nav { 
+    float: right;
+    font-family: Acme, sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-family: Acme, sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ccc;
+}
+
+.character {
+    padding: 10px;
+    border: solid 1px white;
+    font-family: Acme, sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Acme, sans-serif;
+}
+
+.character.character-listing {
+    background-color: #ddd;
+    color: #222;
+}
+
+.character.character-listing:hover {
+    background-color: grey;
+    color: white;
+}
+
+.character.edit, .character.delete {
+    text-align:center;
+}
+
+.character.edit {
+    background-color: #FDC22D;
+    color: white;
+}
+
+.character.edit:hover {
+    background-color: #e89d09;
+}
+
+.character.delete {
+    background-color: red;
+    color: white;
+}
+
+.character.delete:hover {
+   background-color: darkred;
+}
